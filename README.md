@@ -1,4 +1,5 @@
-Repositorio com os códigos elaborados para a disciplina de algoóritos e lógica de programação na linguagem C.
+<h1>Repositorio com os códigos elaborados para a disciplina de algoóritos e lógica de programação na linguagem C.</h1>
+
 
 A titulo exemplificativo, aprenento a captura de tela da calculadora feita em C, nesse programa foi criado a função escolha utilizando a estrutura do-while para solicitar uma das opções, ato continuo solicita dois numeros inteiros, apresenta o resultado e reinicia o loop, conforme a captura de tela do código e o fluxograma abaixo:
 
