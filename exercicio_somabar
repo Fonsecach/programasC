@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+  float cerveja = 10.00;
+  float capirinha = 20.00;
+  float refrigerante = 15.00;
+  float agua = 8.50;
+  float quant, total;
+
+  printf("Quantidade de cervejas consumidas? ");
+  scanf("%f", &quant);
+
+  total = cerveja * quant;
+
+  printf("Quantidade de capirinhas consumidas? ");
+  scanf("%f", &quant);
+
+  total = total  + (capirinha * quant);
+
+  printf("Quantidade de refrigerantes consumidos? ");
+  scanf("%f", &quant);
+
+  total = total  + (refrigerante * quant);
+
+  printf("Quantidade de águas consumidas? ");
+  scanf("%f", &quant);
+
+  total = total  + (agua * quant);
+
+  total = total * 1.1;
+
+  printf("O valor da conta é R$ %.2f", total);
+  printf("\n");
+
+  return 0;
+}
